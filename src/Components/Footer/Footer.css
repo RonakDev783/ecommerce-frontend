@@ -18,6 +18,8 @@
 }
 .footer-links{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     list-style: none;
     gap: 50px;
     color: #252525;
@@ -76,6 +78,7 @@
     .footer-links{
         font-size: 14px;
         gap: 10px;
+        padding-left: 1.5px;
     }
     .footer-social-icon img{
         width: 22px;
